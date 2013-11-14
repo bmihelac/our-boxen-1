@@ -93,6 +93,7 @@ node default {
   include chrome::canary
   include firefox
   include dropbox  
+  include iterm2::stable
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
