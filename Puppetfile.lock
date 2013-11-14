@@ -4,9 +4,24 @@ GITHUBTARBALL
     boxen (3.3.4)
 
 GITHUBTARBALL
+  remote: boxen/puppet-chrome
+  specs:
+    chrome (1.1.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-dropbox
+  specs:
+    dropbox (1.1.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-firefox
+  specs:
+    firefox (1.1.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -37,6 +52,11 @@ GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
     hub (1.0.3)
+
+GITHUBTARBALL
+  remote: boxen/puppet-macvim
+  specs:
+    macvim (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -79,6 +99,11 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-virtualbox
+  specs:
+    virtualbox (1.0.9)
+
+GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.1.0)
@@ -95,7 +120,10 @@ GITHUBTARBALL
 
 DEPENDENCIES
   boxen (= 3.3.4)
+  chrome (= 1.1.2)
   dnsmasq (= 1.0.0)
+  dropbox (= 1.1.2)
+  firefox (= 1.1.4)
   foreman (= 1.0.0)
   gcc (= 2.0.1)
   git (= 1.2.5)
@@ -103,6 +131,7 @@ DEPENDENCIES
   homebrew (= 1.5.1)
   hub (= 1.0.3)
   inifile (= 1.0.0)
+  macvim (= 1.0.0)
   nginx (= 1.4.2)
   nodejs (= 3.3.0)
   openssl (= 1.0.0)
@@ -112,5 +141,6 @@ DEPENDENCIES
   ruby (= 6.7.2)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
+  virtualbox (= 1.0.9)
   xquartz (= 1.1.0)
 

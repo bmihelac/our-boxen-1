@@ -84,6 +84,16 @@ node default {
     ]:
   }
 
+
+
+  include macvim
+
+  include virtualbox
+  include chrome
+  include chrome::canary
+  include firefox
+  include dropbox  
+
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
     target => $boxen::config::repodir
