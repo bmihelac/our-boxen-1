@@ -61,4 +61,5 @@ github "virtualbox", "1.0.9"
 github "firefox", "1.1.4"
 github "dropbox", "1.1.2"
 github "iterm2"
+mod "python", :git => "https://github.com/boxen/puppet-python.git"
 

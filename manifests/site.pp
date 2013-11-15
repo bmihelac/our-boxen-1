@@ -94,6 +94,8 @@ node default {
   include firefox
   include dropbox  
   include iterm2::stable
+  include python
+  include python::virtualenvwrapper
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
