@@ -97,6 +97,7 @@ node default {
   include python
   include python::virtualenvwrapper
   include mysql
+  include mplayerx
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,

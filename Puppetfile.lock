@@ -78,6 +78,11 @@ GITHUBTARBALL
     macvim (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-mplayerx
+  specs:
+    mplayerx (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.4.2)
@@ -152,6 +157,7 @@ DEPENDENCIES
   inifile (= 1.0.0)
   iterm2 (>= 0)
   macvim (= 1.0.0)
+  mplayerx (>= 0)
   mysql (>= 0)
   nginx (= 1.4.2)
   nodejs (= 3.3.0)
