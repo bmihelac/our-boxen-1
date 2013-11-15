@@ -1,4 +1,11 @@
 GIT
+  remote: https://github.com/boxen/puppet-mysql.git
+  ref: master
+  sha: c8ddbc0be787a4dfa55c149d690d01e32ac06e06
+  specs:
+    mysql (0.0.1)
+
+GIT
   remote: https://github.com/boxen/puppet-python.git
   ref: master
   sha: 3feeb34da7b0aec82a8c1619b4e7dd549db66bdc
@@ -145,6 +152,7 @@ DEPENDENCIES
   inifile (= 1.0.0)
   iterm2 (>= 0)
   macvim (= 1.0.0)
+  mysql (>= 0)
   nginx (= 1.4.2)
   nodejs (= 3.3.0)
   openssl (= 1.0.0)

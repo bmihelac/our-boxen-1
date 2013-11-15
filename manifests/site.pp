@@ -96,6 +96,7 @@ node default {
   include iterm2::stable
   include python
   include python::virtualenvwrapper
+  include mysql
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
