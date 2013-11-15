@@ -98,6 +98,8 @@ node default {
   include python::virtualenvwrapper
   include mysql
   include mplayerx
+  include tmux
+  include postgresql
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
