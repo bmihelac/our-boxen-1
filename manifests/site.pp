@@ -101,6 +101,10 @@ node default {
   include tmux
   include postgresql
 
+  package { 'libjpeg':
+      ensure => present
+  }
+
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
     target => $boxen::config::repodir
