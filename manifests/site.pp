@@ -100,6 +100,7 @@ node default {
   include mplayerx
   include tmux
   include postgresql
+  include java
 
   package { 'libjpeg':
       ensure => present
