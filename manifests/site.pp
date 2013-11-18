@@ -63,6 +63,11 @@ node default {
     fail('Please enable full disk encryption and try again')
   }
 
+  # See https://github.com/boxen/puppet-git/issues/7
+  Git::Config::Global <| title == "core.excludesfile" |> {
+      value => "~/.gitignore"
+  }
+
   # node versions
   # include nodejs::v0_4
   # include nodejs::v0_6
