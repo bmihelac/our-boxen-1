@@ -101,6 +101,7 @@ node default {
   include tmux
   include postgresql
   include java
+  include mercurial
 
   package { 'libjpeg':
       ensure => present

@@ -1,4 +1,11 @@
 GIT
+  remote: https://github.com/bluesalt/puppet-mercurial.git
+  ref: master
+  sha: f98a0f3468763e8dcf08b60f3f74811917c52a81
+  specs:
+    mercurial (0.0.1)
+
+GIT
   remote: https://github.com/boxen/puppet-mysql.git
   ref: master
   sha: c8ddbc0be787a4dfa55c149d690d01e32ac06e06
@@ -178,6 +185,7 @@ DEPENDENCIES
   iterm2 (>= 0)
   java (>= 0)
   macvim (= 1.0.0)
+  mercurial (>= 0)
   mplayerx (>= 0)
   mysql (>= 0)
   nginx (= 1.4.2)
