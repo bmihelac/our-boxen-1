@@ -111,6 +111,7 @@ node default {
   include postgresql
   include java
   include mercurial
+  include libreoffice
 
   package { 'libjpeg':
       ensure => present

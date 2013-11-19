@@ -85,6 +85,11 @@ GITHUBTARBALL
     java (1.1.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-libreoffice
+  specs:
+    libreoffice (4.1.3)
+
+GITHUBTARBALL
   remote: boxen/puppet-macvim
   specs:
     macvim (1.0.0)
@@ -184,6 +189,7 @@ DEPENDENCIES
   inifile (= 1.0.0)
   iterm2 (>= 0)
   java (>= 0)
+  libreoffice (= 4.1.3)
   macvim (= 1.0.0)
   mercurial (>= 0)
   mplayerx (>= 0)
