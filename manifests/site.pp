@@ -63,6 +63,8 @@ node default {
     fail('Please enable full disk encryption and try again')
   }
 
+  homebrew::tap { 'homebrew/dupes': }
+
   # See https://github.com/boxen/puppet-git/issues/7
   Git::Config::Global <| title == "core.excludesfile" |> {
       value => "~/.gitignore"
@@ -118,6 +120,10 @@ node default {
   }
 
   package { 'gettext':
+      ensure => present
+  }
+
+  package { 'rsync':
       ensure => present
   }
 
