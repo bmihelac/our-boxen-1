@@ -131,4 +131,6 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+  include osx::no_network_dsstores
 }
