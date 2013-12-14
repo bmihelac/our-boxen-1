@@ -160,11 +160,6 @@ GITHUBTARBALL
     tmux (1.0.2)
 
 GITHUBTARBALL
-  remote: boxen/puppet-utorrent
-  specs:
-    utorrent (1.1.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
     virtualbox (1.0.9)
@@ -218,7 +213,6 @@ DEPENDENCIES
   sudo (= 1.0.0)
   sysctl (>= 0)
   tmux (>= 0)
-  utorrent (>= 0)
   virtualbox (= 1.0.9)
   xquartz (= 1.1.0)
 

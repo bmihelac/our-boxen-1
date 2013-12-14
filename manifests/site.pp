@@ -114,7 +114,6 @@ node default {
   include java
   include mercurial
   include libreoffice
-  include utorrent
 
   package { 'libjpeg':
       ensure => present
