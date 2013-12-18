@@ -6,6 +6,13 @@ GIT
     mercurial (0.0.1)
 
 GIT
+  remote: https://github.com/bmihelac/puppet-ffmpeg.git
+  ref: master
+  sha: d87faa90fec2d7f54c6aabcb230de10e1f8b9de3
+  specs:
+    ffmpeg (0.0.1)
+
+GIT
   remote: https://github.com/boxen/puppet-mysql.git
   ref: master
   sha: c8ddbc0be787a4dfa55c149d690d01e32ac06e06
@@ -184,6 +191,7 @@ DEPENDENCIES
   chrome (= 1.1.2)
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.2)
+  ffmpeg (>= 0)
   firefox (= 1.1.4)
   foreman (= 1.0.0)
   gcc (= 2.0.1)
