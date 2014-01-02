@@ -115,6 +115,7 @@ node default {
   include mercurial
   include libreoffice
   include ffmpeg
+  include imagemagick
 
   package { 'libjpeg':
       ensure => present
