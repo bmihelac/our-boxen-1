@@ -116,6 +116,8 @@ node default {
   include libreoffice
   include ffmpeg
   include imagemagick
+  include autoconf
+  include libtool
 
   package { 'libjpeg':
       ensure => present
@@ -135,4 +137,6 @@ node default {
   }
 
   include osx::no_network_dsstores
+
+  include ghostscript
 }
