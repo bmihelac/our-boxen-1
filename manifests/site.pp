@@ -131,6 +131,10 @@ node default {
       ensure => present
   }
 
+  package { 'ncftp':
+      ensure => present
+  }
+
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
     target => $boxen::config::repodir
